@@ -3,7 +3,8 @@
 ; ======================
 %include "pm.inc" ;其中问一些常量、宏和一些说明
 
-org		07c00h
+;org		07c00h
+org			0100h
 		jmp 	LABEL_BEGIN
 
 [SECTION .gdt]

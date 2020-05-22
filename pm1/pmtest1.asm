@@ -4,7 +4,7 @@
 %include "pm.inc" ;其中问一些常量、宏和一些说明
 
 org	0100h
-;org			000h
+;org	07c00h
 		jmp LABEL_BEGIN
 
 [SECTION .gdt]

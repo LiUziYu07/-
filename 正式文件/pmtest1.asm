@@ -38,7 +38,7 @@ LABEL_BEGIN:
 		mov 	ax, cs
 		shl 	eax, 4
 		add 	eax, 	 LABEL_SEG_CODE32
-		mov 	word	[LABEL_SEG_CODE32 + 2],	ax
+		mov 	word	[LABEL_DESC_CODE32 + 2],	ax
 		shr 	eax, 16
 		mov 	byte 	[LABEL_DESC_CODE32 + 4], al
 		mov 	byte	[LABEL_DESC_CODE32 + 7], ah
@@ -81,7 +81,7 @@ LABEL_SEG_CODE32:
 			mov 	 gs, ax
 
 
-			mov 	edi, (80*1 + 15) * 2	; 屏幕第11行，第79列
+			mov 	edi, (80*11 + 79) * 2	; 屏幕第11行，第79列
 			mov 	 ah, 0Ch
 			mov 	 al, 'p'
 			mov  	[gs:edi], ax

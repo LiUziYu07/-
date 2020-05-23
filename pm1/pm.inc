@@ -6,7 +6,6 @@
 DA_32		EQU	4000h 		;
 DA_C		EQU	98h			;
 DA_DRW 		EQU 92h			;
-ATCE32		EQU	4098h
 ; 描述符
 ; usage: Descriptor Base, Limit, Attr
 ;		 Base:	dd

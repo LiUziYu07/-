@@ -2,6 +2,10 @@
 
 ## pmtest1
 
+ ### nasm 32位 16 位代码
+
+http://blog.sina.com.cn/s/blog_55c555f10102vtz1.html
+
 ### A20总线原理
 
 https://blog.csdn.net/ruyanhai/article/details/7181842
@@ -19,6 +23,8 @@ https://blog.csdn.net/ruyanhai/article/details/7181842
 https://blog.csdn.net/jiangwei0512/article/details/50611778
 
 可以通过操作92h端口来打开A20
+
+https://blog.csdn.net/JessenChen/article/details/5680486?utm_source=jiancool
 
 92h端口
 
@@ -39,3 +45,11 @@ https://blog.csdn.net/husion01/article/details/6453538
  ### CLD指令
 
 https://www.cnblogs.com/DeeLMind/p/6882949.html
+
+ ### x86指令集
+
+https://blog.csdn.net/qq_35939148/article/details/90354555
+
+ ### 高速缓冲寄存器
+
+https://blog.csdn.net/farmwang/article/details/52337618
